@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+html {
+    text-align: center;
+    color:aliceblue;
+    background-color:#22212b;
+    margin: 0px;
+}
+
+body {
+    background-color: #282636;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* align-self: center; */
+    display: block;
+    border-left: 2px solid aliceblue;
+    border-right: 2px solid aliceblue;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+p, a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 75px;
+    height: 88px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 32px;
+    height: 42px;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+li {
+    margin: .3em;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid aliceblue;
+    border-radius: 0.25em;
+    padding: 5px;
+    margin: auto;
+    width: 5em;
+    background-color: #2a2b5b;
+}
+
+.contact-box {
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    border-top: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+    padding: 5px;
+    margin: -2px auto;
+    width: 30em;
+}
+
+.pfp {
+    border-radius: 5em;
+    max-width: 9em;
+    margin-top: 1em;
+    border: 2px solid aliceblue;
+}
+
+footer {
+    padding-bottom: 2em;
+}
+
+/* .contact-box img {
+    max-width: 3em;
+} */
+
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 37px;
+        height: 45px;
+    }
+
+    h3 {
+        font-size: 18px;
+        height: 25px;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .contact-box {
+        width: 10em;
+    }
+
+    .pfp {
+        border-radius: 4em;
+        border: 2px solid aliceblue;
+        max-width: 7em;
+        margin-top: 1em;
+    }
+
+}
