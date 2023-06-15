@@ -67,7 +67,7 @@ a {
     border-radius: 0.25em;
     padding: 5px;
     margin: auto;
-    width: 5em;
+    width: 10em;
     background-color: #2a2b5b;
 }
 
@@ -131,4 +131,10 @@ footer {
         margin-top: 1em;
     }
 
+}
+
+@media screen and (max-width: 375px) {
+    a {
+        width: 6em;
+    }
 }
