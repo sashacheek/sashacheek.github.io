@@ -1,11 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Test document</h1>
+    <h1>Story of Sam</h1>
+    <div id="game-container">
+      <i
+        id="max-icon"
+        class="size-icon fa-solid fa-up-right-and-down-left-from-center"
+      ></i>
+      <i
+        id="min-icon"
+        class="size-icon fa-solid fa-down-left-and-up-right-to-center"
+      ></i>
+      <iframe id="game" src="/sos/index.html" allow="autoplay" allowfullscreen>
+      </iframe>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/93b7fa89ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
